@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.task-box-block, .form-task-box-block{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.task-block{
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-task-block{
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form-name, #form-email{
+    width: 298px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+#form-button{
+    width: 303px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+textarea{
+    width: 300px;
+    height: 50px;
+    resize: none;
+    margin-top: 5px;
+}
+
+.each-task{
+    width: 290px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.each-task p{
+    display: inline;
+}
+
+#button-page{
+    width: 20px;
+}
+
+#button-page:hover, #form-button:hover, #button-change:hover, #sort-button:hover{
+    cursor: pointer;
+}
